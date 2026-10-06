@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/tvBonjour"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:background="#E8EAF6"
+        android:padding="16dp">
+
+        <EditText
+            android:id="@+id/editMath"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Note Maths (/20)"
+            android:inputType="numberDecimal" />
+
+        <EditText
+            android:id="@+id/editInfo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/editMath"
+            android:hint="Note Informatique (/20)"
+            android:inputType="numberDecimal" />
+
+        <EditText
+            android:id="@+id/editAnglais"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/editInfo"
+            android:hint="Note Anglais (/20)"
+            android:inputType="numberDecimal" />
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/btnCalculer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Calculer la moyenne" />
+</LinearLayout>
