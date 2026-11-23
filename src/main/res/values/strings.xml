@@ -1,0 +1,64 @@
+<resources>
+    <string name="app_name">Suivi de notes</string>
+
+    <!-- Main -->
+    <string name="titre_accueil">Suivi de notes</string>
+    <string name="hint_nom">Votre nom</string>
+    <string name="check_accept">Je confirme que mes notes sont exactes</string>
+    <string name="btn_commencer">Commencer</string>
+    <string name="toast_nom">Entrez votre nom</string>
+    <string name="toast_accept">Confirmez l\'exactitude de vos notes</string>
+
+    <!-- Notes -->
+    <string name="bonjour_fmt">Bonjour %1$s</string>
+    <string name="hint_math">Note Maths (/20)</string>
+    <string name="hint_info">Note Informatique (/20)</string>
+    <string name="hint_anglais">Note Anglais (/20)</string>
+    <string name="btn_calculer">Calculer la moyenne</string>
+    <string name="matiere_math">Maths</string>
+    <string name="matiere_info">Informatique</string>
+    <string name="matiere_anglais">Anglais</string>
+    <string name="toast_note_vide">%1$s : note manquante</string>
+    <string name="toast_note_invalide">%1$s : note invalide</string>
+    <string name="toast_note_hors">%1$s : la note doit être entre 0 et 20</string>
+
+    <!-- Result -->
+    <string name="moyenne_fmt">Moyenne : %1$s / 20</string>
+    <string name="mention_fmt">Mention : %1$s</string>
+    <string name="mention_tres_bien">Très bien</string>
+    <string name="mention_bien">Bien</string>
+    <string name="mention_assez_bien">Assez bien</string>
+    <string name="mention_passable">Passable</string>
+    <string name="mention_insuffisant">Insuffisant</string>
+    <string name="btn_details">Voir les détails</string>
+    <string name="btn_objectif">Fixer un objectif</string>
+    <string name="btn_resume">Voir le récapitulatif</string>
+    <string name="dialog_details">Détails</string>
+    <string name="details_fmt">%1$s\nMoyenne : %2$s\nMention : %3$s</string>
+    <string name="objectif_choisi_fmt">Objectif choisi : %1$d</string>
+    <string name="ok">OK</string>
+
+    <!-- Objectif -->
+    <string name="objectif_fmt">Objectif : %1$d</string>
+    <string name="reference_fmt">Votre moyenne actuelle : %1$s</string>
+    <string name="radio_debutant">Débutant</string>
+    <string name="radio_avance">Avancé</string>
+    <string name="switch_rappel">Activer les rappels</string>
+    <string name="btn_valider">Valider l\'objectif</string>
+    <string name="toast_rappel_on">Rappels activés (simulation, sans notification système)</string>
+
+    <!-- Resume -->
+    <string name="titre_recap">Récapitulatif</string>
+    <string name="recap_fmt">Étudiant : %1$s\nMoyenne : %2$s\nObjectif : %3$d\nNiveau : %4$s\nRappels : %5$s</string>
+    <string name="rappels_on">activés (simulation, sans notification système)</string>
+    <string name="rappels_off">désactivés</string>
+    <string name="etat_atteint">Objectif atteint</string>
+    <string name="etat_manque">Il manque %1$s points</string>
+    <string name="conseil_fmt">Conseil (%1$s) : progression réaliste de +%2$d point par période, soit environ %3$d période(s).</string>
+    <string name="ambitieux">Objectif ambitieux : l\'écart dépasse 4 points.</string>
+    <string name="btn_quitter">Quitter</string>
+    <string name="dialog_quitter">Quitter</string>
+    <string name="dialog_quitter_msg">Fermer l\'application ?</string>
+    <string name="oui">Oui</string>
+    <string name="non">Non</string>
+</resources>

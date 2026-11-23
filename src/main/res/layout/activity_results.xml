@@ -28,16 +28,34 @@
         android:layout_marginTop="8dp"
         android:textSize="18sp" />
 
+    <!-- Invisible tant que ObjectifActivity n'a pas renvoyé de résultat -->
+    <TextView
+        android:id="@+id/tvObjectifChoisi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:textSize="18sp"
+        android:visibility="gone" />
+
     <Button
         android:id="@+id/btnDetails"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="24dp"
-        android:text="Voir les détails" />
+        android:text="@string/btn_details" />
 
     <Button
         android:id="@+id/btnSuivant"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Fixer un objectif" />
+        android:text="@string/btn_objectif" />
+
+    <!-- Invisible tant qu'aucun objectif n'a été choisi -->
+    <Button
+        android:id="@+id/btnResume"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/btn_resume"
+        android:visibility="gone" />
 </LinearLayout>

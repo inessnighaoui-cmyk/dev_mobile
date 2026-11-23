@@ -6,10 +6,17 @@
     android:padding="16dp">
 
     <TextView
+        android:id="@+id/tvReference"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16sp" />
+
+    <TextView
         android:id="@+id/tvObjectif"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Objectif : 10"
+        android:layout_marginTop="16dp"
+        android:text="@string/objectif_fmt"
         android:textSize="20sp" />
 
     <SeekBar
@@ -31,13 +38,13 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:checked="true"
-            android:text="Débutant" />
+            android:text="@string/radio_debutant" />
 
         <RadioButton
             android:id="@+id/radioAvance"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Avancé" />
+            android:text="@string/radio_avance" />
     </RadioGroup>
 
     <androidx.appcompat.widget.SwitchCompat
@@ -45,12 +52,12 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
-        android:text="Activer les rappels" />
+        android:text="@string/switch_rappel" />
 
     <Button
         android:id="@+id/btnSuivant"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="24dp"
-        android:text="Voir le récapitulatif" />
+        android:text="@string/btn_valider" />
 </LinearLayout>

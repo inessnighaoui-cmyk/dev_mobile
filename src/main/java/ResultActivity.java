@@ -1,3 +1,5 @@
+package com.ines.nouveau4;
+
 import android.content.Intent;
 import android.os.Bundle;
 import android.widget.ProgressBar;
@@ -10,7 +12,7 @@ public class ResultActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_result);
+        setContentView(R.layout.activity_results);
 
         Bundle bundle = getIntent().getBundleExtra(MainActivity.EXTRA_BUNDLE);
         if (bundle == null) bundle = new Bundle();

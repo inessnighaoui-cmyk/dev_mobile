@@ -1,3 +1,5 @@
+package com.ines.nouveau4;
+
 import android.content.Intent;
 import android.os.Bundle;
 import android.widget.Button;
@@ -8,6 +10,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 public class MainActivity extends AppCompatActivity {
 
+    // Clés du Bundle partagées par toutes les activités
     public static final String EXTRA_BUNDLE = "data_bundle";
     public static final String KEY_NOM = "nom";
     public static final String KEY_MOYENNE = "moyenne";
@@ -28,11 +31,11 @@ public class MainActivity extends AppCompatActivity {
             String nom = editNom.getText().toString().trim();
 
             if (nom.isEmpty()) {
-                Toast.makeText(this, "Entrez votre nom", Toast.LENGTH_SHORT).show();
+                Toast.makeText(this, R.string.toast_nom, Toast.LENGTH_SHORT).show();
                 return;
             }
             if (!checkAccept.isChecked()) {
-                Toast.makeText(this, "Acceptez les conditions", Toast.LENGTH_SHORT).show();
+                Toast.makeText(this, R.string.toast_accept, Toast.LENGTH_SHORT).show();
                 return;
             }
 

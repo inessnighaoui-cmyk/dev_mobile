@@ -9,13 +9,14 @@
     <ImageView
         android:layout_width="80dp"
         android:layout_height="80dp"
+        android:contentDescription="@null"
         android:src="@android:drawable/ic_dialog_info" />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
-        android:text="Suivi de notes"
+        android:text="@string/titre_accueil"
         android:textSize="24sp"
         android:textStyle="bold" />
 
@@ -24,18 +25,19 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="24dp"
-        android:hint="Votre nom" />
+        android:hint="@string/hint_nom"
+        android:inputType="textPersonName" />
 
     <CheckBox
         android:id="@+id/checkAccept"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="J'accepte les conditions" />
+        android:text="@string/check_accept" />
 
     <Button
         android:id="@+id/btnCommencer"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
-        android:text="Commencer" />
+        android:text="@string/btn_commencer" />
 </LinearLayout>
