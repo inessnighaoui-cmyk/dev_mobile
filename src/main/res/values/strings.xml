@@ -31,31 +31,31 @@
     <string name="mention_passable">Passable</string>
     <string name="mention_insuffisant">Insuffisant</string>
     <string name="btn_details">Voir les détails</string>
-    <string name="btn_objectif">Fixer un objectif</string>
-    <string name="btn_resume">Voir le récapitulatif</string>
+    <string name="btn_precedent">Saisir le semestre précédent</string>
+    <string name="btn_evolution">Voir l\'évolution</string>
     <string name="dialog_details">Détails</string>
     <string name="details_fmt">%1$s\nMoyenne : %2$s\nMention : %3$s</string>
-    <string name="objectif_choisi_fmt">Objectif choisi : %1$d</string>
+    <string name="precedent_choisi_fmt">Semestre précédent : moyenne %1$s</string>
     <string name="ok">OK</string>
 
-    <!-- Objectif -->
-    <string name="objectif_fmt">Objectif : %1$d</string>
-    <string name="reference_fmt">Votre moyenne actuelle : %1$s</string>
-    <string name="radio_debutant">Débutant</string>
-    <string name="radio_avance">Avancé</string>
-    <string name="switch_rappel">Activer les rappels</string>
-    <string name="btn_valider">Valider l\'objectif</string>
-    <string name="toast_rappel_on">Rappels activés (simulation, sans notification système)</string>
+    <!-- Précédent -->
+    <string name="reference_fmt">Moyenne actuelle : %1$s</string>
+    <string name="consigne_precedent">Notes du semestre précédent :</string>
+    <string name="note_ancienne_fmt">%1$s : %2$d</string>
+    <string name="switch_comparer">Comparer matière par matière</string>
+    <string name="btn_valider">Valider</string>
 
-    <!-- Resume -->
-    <string name="titre_recap">Récapitulatif</string>
-    <string name="recap_fmt">Étudiant : %1$s\nMoyenne : %2$s\nObjectif : %3$d\nNiveau : %4$s\nRappels : %5$s</string>
-    <string name="rappels_on">activés (simulation, sans notification système)</string>
-    <string name="rappels_off">désactivés</string>
-    <string name="etat_atteint">Objectif atteint</string>
-    <string name="etat_manque">Il manque %1$s points</string>
-    <string name="conseil_fmt">Conseil (%1$s) : progression réaliste de +%2$d point par période, soit environ %3$d période(s).</string>
-    <string name="ambitieux">Objectif ambitieux : l\'écart dépasse 4 points.</string>
+    <!-- Évolution -->
+    <string name="titre_evolution">Évolution</string>
+    <string name="ancienne_moyenne_fmt">Semestre précédent : %1$s</string>
+    <string name="nouvelle_moyenne_fmt">Semestre actuel : %1$s</string>
+    <string name="ecart_fmt">Évolution : %1$s point(s) — %2$s</string>
+    <string name="verdict_progression">progression</string>
+    <string name="verdict_recul">recul</string>
+    <string name="verdict_stable">stable</string>
+    <string name="ligne_matiere_fmt">%1$s : %2$d → %3$s (%4$s) %5$s</string>
+    <string name="meilleure_fmt">Meilleure progression : %1$s (%2$s)</string>
+    <string name="aucune_progression">Aucune matière en progression</string>
     <string name="btn_quitter">Quitter</string>
     <string name="dialog_quitter">Quitter</string>
     <string name="dialog_quitter_msg">Fermer l\'application ?</string>
